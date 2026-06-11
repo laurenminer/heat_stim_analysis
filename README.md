@@ -11,6 +11,8 @@ stimulation signal timeline and rendering annotated, sped-up videos of recording
   "Heat Stimulation On" overlay onto frames while the stimulus is active (pipes RGB frames to
   `ffmpeg`). Videos are written to `outputs/videos/`. (Requires `ffmpeg` on PATH.)
 - **`main.py`** — package entry-point stub.
+- **`PrettyHeatStim.ipynb`** — notebook for "pretty" heat-stim visualizations from imaging
+  `.h5` data (h5py / OpenCV / matplotlib).
 
 ## Requirements
 See `pyproject.toml` (numpy, matplotlib, h5py, etc.). `make_stim_video.py` also needs `ffmpeg`.
