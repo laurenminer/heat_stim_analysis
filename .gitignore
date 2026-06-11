@@ -1,0 +1,9 @@
+# Generated output (plots + videos)
+outputs/
+
+# Python
+__pycache__/
+*.py[oc]
+.venv/
+.python-version
+*.egg-info/
